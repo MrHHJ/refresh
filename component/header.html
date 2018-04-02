@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function tabCheck(a) {
+			if ($(a).attr("file")) {
+				$("#main").load("view/" + $(a).attr("file") + ".html");
+			} else {
+				alert("敬请期待");
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="center link">
+		<label class="logo">
+			<img src="images/logo.png">进源包装
+		</label>
+		<label class="link">
+			<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2952306458&site=qq&menu=yes"><img border="0" src="images/QQ.jpeg" alt="点击这里给我发消息" title="点击这里给我发消息"/>QQ联系</a>
+			<dl class="linkman">
+				<dt class="linktitle"><img src="images/telephone.jpeg" alt="联系电话" title="联系电话">电话联系</dt>
+				<dl>
+					<dt>负责人电话：</dt>
+					<dd>15008454169</dd>
+					<dd>15008454169</dd>
+					<dt>设计师电话：</dt>
+					<dd>15008454169</dd>	
+				</dl>
+			</dl>
+		</label>	
+	</div>
+	<nav class="center tab">
+		<a onclick="tabCheck(this);" file="index">公司首页</a>
+		<a onclick="tabCheck(this);" file="">产品展示</a>
+		<a onclick="tabCheck(this);" file="">新闻资讯</a>
+		<a onclick="tabCheck(this);" file="">关于我们</a>
+		<a onclick="tabCheck(this);" file="">服务范围</a>
+	</nav>
+</body>
+</html>

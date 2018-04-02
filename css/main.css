@@ -1,0 +1,9 @@
+@charset "UTF-8";
+*{padding: 0px;margin: 0px;font-size: 12px;}
+html,body{width: 100%;}
+
+a{color: #000;text-decoration: none;}
+a:actived{color: red;}
+
+/*中心显示样式*/
+.center{padding: 0px 65px;}

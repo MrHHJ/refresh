@@ -1,0 +1,92 @@
+.header{height: 100px;position: fixed;width: 100%;top: 0px;box-sizing: border-box;background: rgba(255, 255, 255, 0.9);z-index: 1;}
+.header .link{height: 60px;border-bottom: 1px solid silver;}
+.header .link>label{display: block;height: 100%;line-height: 60px;}
+.header .link>.logo{float: left;font-size: 24px;font-weight: 600;color: #666;line-height: 60px;}
+.header .link>.logo img{height: 100%;vertical-align: middle;}
+.header .link>.link{float: right;}
+.header .link>.link a{
+    vertical-align: top;
+    display: inline-block;font-size: 14px;padding: 0px 10px;}
+.header .link>.link a:hover{color: #00aef3;}
+.header .link>.link a img{height: 30px;vertical-align: middle;}
+.header .link>.link .linkman{height: 100%;display: inline-block;width: 120px;}
+.header .link>.link .linkman dt{height: 20px;line-height: 20px;padding: 0px 10px;}
+.header .link>.link .linkman dt.linktitle{height: 100%;line-height: 60px;font-size: 14px;}
+.header .link>.link .linkman dt.linktitle img{height: 30px;vertical-align: middle;}
+.header .link>.link .linkman dl{border: 1px solid silver;border-top: none;background: #FFF;display: none;}
+.header .link>.link .linkman dd{height: 30px;cursor: pointer;
+    line-height: 30px;
+    padding: 0px 15px;
+    font-size: 14px;
+}
+.header .link>.link .linkman dd:hover{color: #00aef3;}
+.header .link>.link .linkman:hover dl{display: block;}
+.header .link>.link .linkman:hover dt.linktitle{color: #00aef3;}
+.header .link:after{content: "";clear: both;}
+.header .tab{overflow: hidden;background: #00aef3;
+    height: 40px;
+    line-height: 40px;}
+.header .tab a{    font-size: 16px;color: #FFF;display: inline-block;width: 80px;
+    cursor: pointer;
+    /* display: inline-block; */
+    margin-right: 26px;}
+.header .tab a:hover{font-size: 18px;    text-shadow: 1px 3px 3px #000;}
+
+
+.metal{display: table-cell;position: fixed;height: 100%;top: 0px;}
+.metal:after{content: "";display: inline-block;height: 100%;width: 0;vertical-align: middle;}
+.metal .content{border: 1px solid #EEE;border-left: none;    border-radius: 0px 20px 20px 0px;width: 30px;display: inline-block;}
+.metal .content .link{height: 35px;text-align: center;line-height: 35px;}
+.metal .content .link .bug{width: 10px;height: 10px;border: 1px solid silver;border-radius: 50%;display: inline-block;vertical-align: middle;cursor: pointer;}
+.metal .content .link .on{background: silver;}    
+
+.main{margin-top: 100px;width: 100%;box-sizing: border-box;}
+.main .block{height: 600px;}
+.main .block:after{display: inline-block;content: "";height: 100%;vertical-align: middle;}
+.main .blockone{display: table-row;width: 100%;}
+.main .block p{display: table-cell;width: 50%;}
+
+.main .blockone p{vertical-align: middle;text-align: center;}
+.main .blockone p label{display: block;font-size: 65px;    font-family: cursive;color: #999;}
+.main .blockone p span{font-size: 25px;font-family: fantasy;color: #CCC;
+}
+.main .blocktwo{display: block;}
+.main .blocktwo img{width: 100%;}
+
+.main .blockthree{    position: relative;}
+.main .blockthree .producttitle{position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 320px;
+    /* text-align: center; */
+    padding-left: 40px;
+    box-sizing: border-box;}
+.main .blockthree .producttitle .title{display: block;
+    font-size: 30px;
+    width: 100%;
+    color: #666;}
+.main .blockthree .producttitle .titledesc{    display: block;
+    width: 40px;
+    font-size: 20px;
+    border-top: 3px solid #999;
+    color: #999;}
+
+.main .blockthree .productlist{    margin-left: 320px;}
+.main .blockthree .productlist img{    width: 100%;}
+
+.main .blockfour{display: block;text-align: justify;height: 300px;overflow: hidden;cursor: pointer;}
+.main .blockfour:after{content: "";display: inline-block;width: 100%;}
+.main .blockfour .product{display: inline-block;height: 300px;position: relative;    width: 270px;
+    /* letter-spacing: -5px; */
+    border: 1px solid silver;
+    border-radius: 4px;
+    text-align: center;overflow: hidden;}
+.main .blockfour .product img{width: 200px;transition: all linear .3s;}
+.main .blockfour .product img:hover{width: 230px;}
+.main .blockfour .product span{display: block;position: absolute;width: 100%;height: 30px;text-align: center;bottom: 0px;left: 0px;}
+
+.footer{    height: 60px;
+    background: #00aef3;
+    text-align: center;
+    color: #FFF;
+    line-height: 30px;}
