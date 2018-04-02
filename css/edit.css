@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+
+body{background: #eee;}
+
+
+
+.edit{margin: 0px 100px;}
+.edit .title{background: #ccc;line-height: 30px;display: inline-block;padding: 0px 20px;border-radius: 10px 10px 0px 0px;height: 32px;position: relative;}
+.edit .title span{}
+.edit .title img{height: 30px;width: 40px;vertical-align: middle;}
+.edit .title i{font-size: 16px;cursor: pointer;}
+.edit .title .list{position: absolute;left: 0px;display: none;}
+.edit .content{background: #FFF;border: 1px solid #ccc;}
+.edit .content .tab{background: #EEE;line-height: 30px;padding: 0px 15px;}
+.edit .content .tab span{border: 1px solid #ccc;padding: 2px 5px;margin-right: 5px;border-radius: 4px;}
+.edit .content .tab span i{cursor: pointer;font-size: 14px;}
+.edit .content .tab span i.lettershadow{color: #FFF;text-shadow: 1px 1px 2px #00aef3;}
+.edit .content .main{height: 600px;overflow: auto;}
+.edit .content .main p{}
+.edit .foot{}
