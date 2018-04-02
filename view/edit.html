@@ -3,10 +3,72 @@
 <head>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 	<link rel="icon" type="image/x-icon" href="images/logo.png">
-	
+	<link rel="stylesheet" type="text/css" href="../plugins/font-awesome-4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/edit.css">
+
+	<script type="text/javascript" src="../plugins/jquery.js"></script>
+
+	<script type="text/javascript" src="../js/editable.js"></script>
 </head>
-<body>
-	<div class="metal">
+<body onload="editpage.init();">
+	<div class="edit">
+		<div class="title">
+			<span>选择背景</span>
+			<img alt="" src="../images/bg/s_01.gif"/>
+			<img alt="" src="../images/bg/s_01.gif"/>
+			<img alt="" src="../images/bg/s_01.gif"/>
+			<img alt="" src="../images/bg/s_01.gif"/>
+			<img alt="" src="../images/bg/s_01.gif"/>
+			<img alt="" src="../images/bg/s_01.gif"/>
+			<img alt="" src="../images/bg/s_01.gif"/>
+			<i class="fa fa-angle-double-down"></i>
+			<div class="list">
+				<img alt="" src="../images/bg/s_01.gif"/>
+				<img alt="" src="../images/bg/s_01.gif"/>
+				<img alt="" src="../images/bg/s_01.gif"/>
+				<img alt="" src="../images/bg/s_01.gif"/>
+				<img alt="" src="../images/bg/s_01.gif"/>
+				<img alt="" src="../images/bg/s_01.gif"/>
+				<img alt="" src="../images/bg/s_01.gif"/>
+				<img alt="" src="../images/bg/s_01.gif"/>
+				<img alt="" src="../images/bg/s_01.gif"/>
+			</div>
+		</div>
+		<div class="content">
+			<div class="tab">
+				<select>
+					<option>12px</option>
+					<option>14px</option>
+					<option>16px</option>
+					<option>18px</option>
+				</select>
+				<span>
+					<i class="fa fa-bold" title="加粗"></i>
+					<i class="fa fa-italic" title="斜体"></i>
+					<i class="fa fa-underline" title="下划线"></i>
+				</span>
+				<span>
+					<i class="fa fa-font" title="字体颜色"></i>
+					<i class="fa fa-font lettershadow" title="字体投影"></i>
+				</span>
+				<span>
+					<i class="fa fa-align-left" title="向左对齐"></i>
+					<i class="fa fa-align-center" title="中间对齐"></i>
+					<i class="fa fa-align-right" title="向右对齐"></i>
+				</span>
+				<span>
+					<i class="fa fa-link" title="插入链接"></i>
+					<i class="fa fa-image" title="插入图片"></i>
+				</span>
+			</div>
+			<div contenteditable="true" class="main" id="contentArea"><div></div></div>
+		</div>
+		<div class="foot">
+			<button>预览</button>
+			<button>保存</button>
+			<button>删除</button>
+		</div>
 	</div>
 </body>
 </html>
